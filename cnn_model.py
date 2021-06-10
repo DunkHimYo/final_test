@@ -2,7 +2,7 @@ import sys
 import sys
 from tensorflow import keras
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Input, GlobalMaxPooling2D,Lambda,concatenate,Conv2D, MaxPooling2D
-from tensorflow.keras.regularizers import l1,l2
+from tensorflow.keras.regularizers import l1
 from tensorflow.keras.models import Model
 import tensorflow as tf
 from tensorflow.keras.optimizers import Adam
